@@ -19,14 +19,39 @@ Sample Quality: Production-grade instruction following
 ## Setup Instructions
 1. Install requirements:
 ```bash
-# pip install transformers torch
+pip install transformers torch
 
 Clone the repository:
-# git clone https://github.com/omega-awesome-a2a/ai-explorer.git
-# cd ai-explorer
+ git clone https://github.com/omega-awesome-a2a/ai-explorer.git
+#d ai-explorer
 
 from src.models.mistral_model import MistralModel
 model = MistralModel()
 response = model.generate("Your prompt here")
+
+# Mistral-7B Integration
+
+## Overview
+Added Mistral-7B-Instruct-v0.3 to AI Explorer with Streamlit interface.
+
+## Features
+- Interactive Streamlit UI
+- Response time tracking
+- Temperature control
+- Max length adjustment
+
+## Demo Video
+[Your YouTube link - https://youtu.be/OL4NjqIgc7Q]
+
+## Benchmarks
+- Load time: ~9 seconds
+- Generation time: 70-150 seconds
+- Memory usage: [Your stats]
+
+## Setup Instructions
+1. Install requirements:
+```bash
+pip install -r requirements.txt
+
 
 
